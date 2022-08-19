@@ -1,0 +1,26 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 60px;
+}
+
+.containter {
+    display: table;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-start;
+    width: 700px;
+}
+
+#submitRequest.button {
+    background-color: rgb(70, 70, 180);
+    margin-top: 25px;
+    padding: 8px;
+}
+
+h1, h2, li {
+    margin-left: 60px
+}
