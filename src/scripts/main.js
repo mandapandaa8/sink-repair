@@ -6,7 +6,9 @@ import { deleteRequest } from "./dataAccess.js"
 export const mainContainer = document.querySelector("#container")
 
 const render = () => {
-    fetchRequests().then(
+    fetchRequests()
+    .then(() => fetchPlumbers())
+    .then(
         () => {
             mainContainer.innerHTML = SinkRepair()
         }
